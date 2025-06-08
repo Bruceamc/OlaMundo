@@ -1,3 +1,19 @@
+/* Minhas cores
+#000
+#222
+#333
+#444
+#555
+#666
+#888
+#999
+#AAA
+#BBB
+#CCC
+#DDD
+#FFF
+*/
+
 body {
   margin: 0;
   padding: 0;
@@ -5,13 +21,13 @@ body {
   background-color: #BBB;
 }
 
+/* Carrossel */
 .carrossel {
   width: 100%;
   height: 200px;
   position: relative;
   overflow: hidden;
-  border-radius: 100px;
-  box-shadow: 0 0 10px black;
+  box-shadow: 0 0 10px #000;
 }
 
 .slides {
@@ -36,7 +52,7 @@ body {
 }
 
 .s2 {
-     background: #BBB; 
+     background: #333; 
 }
 
 .s3 { 
@@ -56,7 +72,7 @@ body {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background: rgb(8, 16, 67);
+    background-color: darkgoldenrod;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -78,9 +94,12 @@ input[type="radio"] {
 }
 
 .navegacao label:hover {
-  background: darkgoldenrod;
+  background: darkblue;
 }
+/* Fim do Carrossel */
 
+
+/* Menu */
 .menu {
   background-color: #333;
 }
@@ -108,3 +127,4 @@ input[type="radio"] {
 .menu a:hover {
   background-color: #555;
 }
+ /* Fim do carrossel */
